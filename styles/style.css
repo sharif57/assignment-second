@@ -51,6 +51,7 @@ span {
     height: 500px;
     width: 100%;
     margin-top: 50px;
+    border-radius: 10px;
 }
 
 .banner-title {
@@ -91,7 +92,7 @@ span {
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     cursor: pointer;
-    width: 170px;
+    /* width: 170px; */
     margin-left: 24px;
     font-weight: 400;
 }
@@ -123,7 +124,8 @@ main {
     margin-bottom: 20px;
 }
 
-.text-description, .choose-paragraph {
+.text-description,
+.choose-paragraph {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -161,7 +163,175 @@ main {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 20px;
 }
+
+/* Choose Your Destination styles */
+.choose-items {
+    display: grid;
+    margin-top: 48px;
+    /* width: 90%; */
+    gap: 15px;
+    /* object-fit: cover; */
+    /* background-repeat: no-repeat; */
+    grid-template-areas:
+        "Maldives Maldives Maldives      Maldives      Indonesia     Indonesia     Indonesia Indonesia"
+        "Srilanka Srilanka North-America North-America North-America North-America Kashmir   Kashmir "
+        "Bangladesh Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban Bandarban";
+}
+
+
+
+
+/* Why Choose Us section styles */
+.service-container {
+    margin-top: 100px;
+}
+
+.services-text {
+    text-align: center;
+}
+
+.service-heading {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.heading {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+.service-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.hotels {
+    width: 48%;
+    padding-left: 30px;
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.world {
+    width: 48%;
+    padding-left: 30px;
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.best {
+    width: 50%;
+    border-radius: 16px;
+    /* border: 1px solid rgba(233, 68, 68, 0.20); */
+    background: rgba(233, 68, 68, 0.05);
+    padding-left: 30px;
+}
+
+.best-container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+
+}
+
+/* newsletter section styles */
+.news-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.newsletter {
+    width: 40%;
+    margin-bottom: 16px;
+    background: #FFF;
+    padding: 40px 40px 40px 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter input {
+    padding: 16px 150px 16px 15px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+#input-1 {
+    margin-top: 48px;
+}
+
+#input-2 {
+    margin-top: 16px;
+}
+
+.button {
+    margin-top: 24px;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 150px 16px 15px;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.news-heading {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.img-content{
+    width: 50%;
+}
+
+/* Footer related styles */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 100px;
+}
+.footer-section{
+    text-align: center;
+    /* margin-top: 100px; */
+}
+.nav-footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 70px; 
+}
+
 
 
 
@@ -217,5 +387,52 @@ main {
     .img-container {
         width: 90%;
         margin: 0 auto;
+    }
+
+    /* .choose-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "Bangladesh"
+            "Maldives"
+            "Indonesia"
+            "North America";
+    } */
+    .service-items,
+    .best {
+        flex-direction: column;
+    }
+
+    .hotels,
+    .world,
+    .best {
+        /* width: ; */
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 0px;
+        margin-bottom: 15px;
+    }
+
+    .news-container {
+        flex-direction: column;
+        
+    }
+
+    .newsletter{
+        width: 60%;
+        margin: 0 auto; 
+    }
+    .img-content{
+        width: 100%;
+        
+    }
+    .img-content img {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        margin-top: 16px;
+    }
+    .button , .newsletter input{
+        padding: 25px 40px 18px 22px;
     }
 }
