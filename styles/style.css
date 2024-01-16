@@ -299,37 +299,64 @@ main {
     font-weight: 800;
     margin-bottom: 24px;
 }
-.img-content{
+
+.img-content {
     width: 50%;
 }
 
+.discount {
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+    border-radius: 10.569px;
+    background: #FF5400;
+    position: absolute;
+    bottom: -2%;
+    right: -1%;
+}
+
+.discount h4 {
+    color: #FFF;
+    font-size: 15.854px;
+    font-weight: 400;
+}
+
+.discount h2 {
+    color: #FFF;
+    font-size: 21.138px;
+    font-weight: 800;
+}
+
 /* Footer related styles */
-footer{
+footer {
     max-width: 1440px;
     margin: 0 auto;
     height: 400px;
     background: rgba(19, 19, 24, 0.05);
     padding-top: 100px;
 }
-.footer-section{
+
+.footer-section {
     text-align: center;
     /* margin-top: 100px; */
 }
-.nav-footer{
-    
+
+.nav-footer {
+
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin-top: 30px;
-    margin-bottom: 70px; 
+    margin-bottom: 70px;
 }
 
 
@@ -388,6 +415,10 @@ footer{
         width: 90%;
         margin: 0 auto;
     }
+    .discount{
+        bottom: -296%;
+        right: 34px;
+    }
 
     /* .choose-items {
         display: grid;
@@ -415,24 +446,28 @@ footer{
 
     .news-container {
         flex-direction: column;
-        
+
     }
 
-    .newsletter{
+    .newsletter {
         width: 60%;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
-    .img-content{
+
+    .img-content {
         width: 100%;
-        
+
     }
+
     .img-content img {
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
         margin-top: 16px;
     }
-    .button , .newsletter input{
+
+    .button,
+    .newsletter input {
         padding: 25px 40px 18px 22px;
     }
 }
