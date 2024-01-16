@@ -97,6 +97,17 @@ span {
     font-weight: 400;
 }
 
+.btn-button2 {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 80px 16px 16px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 24px;
+    font-weight: 400;
+}
 
 /* main section style */
 main {
@@ -410,6 +421,7 @@ footer {
     .nav-items a {
         display: none;
     }
+    
 
     .banner {
         width: 90%;
@@ -433,33 +445,33 @@ footer {
         text-align: start;
     }
 
-    .btn-pro {
-        text-align: center;
+    .btn-button2 {
+        padding: 10px 80px 14px 71px;
+        margin-left: 0;
     }
-
     .button-type {
         max-width: 80%;
     }
-
+    
     .popular-container {
         flex-direction: column;
     }
-
+    
     .text-content {
         width: 90%;
         margin: 0 auto;
     }
-
+    
     .img-container1 img {
         width: 100%;
     }
-
+    
     .img-container1 {
         width: 90%;
         margin: 0 auto;
         position: relative;
     }
-
+    
     .discount {
         bottom: 18%;
         right: 9%;
@@ -467,13 +479,13 @@ footer {
         height: 61.268px;
         position: absolute;
     }
-
+    
     .container {
         flex-direction: column;
         /* container: 80%; */
         margin: 0 auto;
     }
-
+    
     .img-container {
         width: 80%;
         grid-column: 0;
@@ -481,45 +493,45 @@ footer {
         grid-template-columns: 1fr;
         gap: 0;
     }
-
+    
     .img-container img {
         padding-top: 10px;
     }
-
+    
     .grid-item1 {
         grid-column: 1/span 1;
     }
-
+    
     .grid-item2 {
         grid-column: 1/span 1;
     }
-
+    
     .grid-item3 {
         grid-column: 1/span 1;
     }
-
+    
     .grid-item10 {
         grid-column: 1/span 1;
     }
-
+    
     .grid-item5 {
         grid-column: 1/span 1;
-
+    
     }
-
+    
     .grid-item6 {
         grid-column: 1/span 1;
     }
-
+    
     .grid-item7 {
         grid-column: 1/span 1;
     }
-
+    
     .service-items,
     .best {
         flex-direction: column;
     }
-
+    
     .hotels,
     .world,
     .best {
@@ -529,31 +541,33 @@ footer {
         padding-left: 0px;
         margin-bottom: 15px;
     }
-
+    
     .news-container {
         flex-direction: column;
-
+    
     }
-
+    
     .newsletter {
         width: 60%;
         margin: 0 auto;
     }
-
+    
     .img-content {
         width: 100%;
-
+    
     }
-
+    
     .img-content img {
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
         margin-top: 16px;
     }
-
+    
     .button,
     .newsletter input {
         padding: 25px 40px 18px 22px;
     }
 }
+
+
