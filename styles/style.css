@@ -98,7 +98,7 @@ span {
     font-weight: 400;
 }
 
-.btn-button2 {
+/* .btn-button2 {
     border-radius: 8px;
     background: #FF5400;
     padding: 16px 80px 16px 16px;
@@ -106,9 +106,9 @@ span {
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    /* margin-left: 24px; */
+    margin-left: 24px; 
     font-weight: 400;
-}
+} */
 
 /* main section style */
 main {
